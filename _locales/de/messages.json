@@ -1,0 +1,10 @@
+{
+    "extName": {
+        "message": "ChatGPT Chats Delete",
+        "description": "Erweiterungsname"
+    },
+    "extDescription": {
+        "message": "Erweiterung zum Massenlöschen von ChatGPT-Gesprächen",
+        "description": "Erweiterungsbeschreibung"
+    }
+}

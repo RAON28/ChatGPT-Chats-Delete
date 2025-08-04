@@ -1,0 +1,10 @@
+{
+    "extName": {
+        "message": "ChatGPT 채팅 삭제",
+        "description": "확장 프로그램 이름"
+    },
+    "extDescription": {
+        "message": "ChatGPT 대화를 일괄 삭제할 수 있는 확장 프로그램",
+        "description": "확장 프로그램 설명"
+    }
+}

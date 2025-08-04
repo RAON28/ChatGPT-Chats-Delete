@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChatGPT Chats Delete</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 250px;
+      min-height: 150px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #2f2f2f;
+      color: #ffffff;
+    }
+
+    .container {
+      padding: 8px;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 8px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #444;
+    }
+
+    .title {
+      font-size: 16px;
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    .content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 8px;
+    }
+
+    .description {
+      font-size: 13px;
+      color: #aaa;
+      margin-bottom: 12px;
+      line-height: 1.4;
+      text-align: left;
+      padding: 0 4px;
+    }
+
+    .status {
+      font-size: 11px;
+      color: #666;
+      margin-top: 6px;
+      margin-bottom: 12px;
+    }
+
+    .footer {
+      margin-top: auto;
+      padding-top: 6px;
+      text-align: center;
+      border-top: 1px solid #444;
+    }
+
+    .sponsor-link {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      color: #ff6b6b;
+      font-size: 11px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      transition: all 0.2s ease;
+    }
+
+    .sponsor-link:hover {
+      background: #424242;
+      color: #ff5252;
+      transform: translateY(-1px);
+    }
+
+    .heart-icon {
+      width: 11px;
+      height: 11px;
+      margin-right: 4px;
+      fill: currentColor;
+    }
+
+    .version {
+      font-size: 9px;
+      color: #666;
+      margin-top: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="title" id="popupTitleText">ChatGPT Chats Delete</h1>
+    </div>
+
+    <div class="content">
+      <p class="description" id="popupDescription">
+        Click the delete button on the ChatGPT page to bulk delete conversations.
+      </p>
+      <div class="status" id="status">
+        Available on ChatGPT page
+      </div>
+    </div>
+
+    <div class="footer">
+      <a href="https://github.com/sponsors/RAON28" target="_blank" class="sponsor-link">
+        <svg class="heart-icon" viewBox="0 0 16 16">
+          <path
+            d="m8 14.25.345.666a.75.75 0 0 1-.69 0l-.008-.004-.018-.01a7.152 7.152 0 0 1-.31-.17 22.055 22.055 0 0 1-3.434-2.414C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.045 5.231-3.885 6.818a22.066 22.066 0 0 1-3.744 2.584l-.018.01-.006.003h-.002Z">
+          </path>
+        </svg>
+        <span id="sponsorText">Support</span>
+      </a>
+      <div class="version">v1.0</div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>
